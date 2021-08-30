@@ -13,8 +13,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './Components/Navbar/Navbar.component';
 import { TasksComponent } from './Components/Tasks/Tasks.component';
 
-import { FormsModule } from '@angular/forms';
-import { FormComponent } from './Components/Form/Form.component';
+
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -26,8 +26,7 @@ import { FormComponent } from './Components/Form/Form.component';
     BrowserModule,
     HttpClientModule,
     NgbModule,
-    ReactiveFormsModule,
-    FormComponent
+    ReactiveFormsModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
